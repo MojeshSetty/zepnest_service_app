@@ -18,8 +18,7 @@ Zepnest is a secure, single-page full-stack service request tracking platform ta
 
 ---
 ```
-
-## 2. Directory Layout Architecture
+##  2. Directory Layout Architecture
 Ensure your local project directory structure conforms to the tracking format below before attempting execution or zipping the package:
 
 ```text
@@ -40,8 +39,9 @@ zepnest_project/
 │
 ├── schema.sql                # Declarative database entry script
 └── README.md                 # Complete system documentation
+
 ---
-```
+
 
 
 

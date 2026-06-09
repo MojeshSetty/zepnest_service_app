@@ -6,9 +6,7 @@
 
 ### Developer Submission Details
 - **Student/Intern Name:** Setty Mojesh
-- 
 
----
 
 ## 1. Project Architecture Overview
 Zepnest is a secure, single-page full-stack service request tracking platform tailored for seamless asynchronous communications. 

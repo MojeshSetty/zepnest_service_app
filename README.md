@@ -45,8 +45,6 @@ zepnest_project/
 ---
 ```
 
-```
-
 
 ## 3. Step-by-Step System Execution
 

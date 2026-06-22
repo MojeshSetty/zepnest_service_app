@@ -109,7 +109,7 @@ npm run dev
 ```
 
 The responsive graphic interface will load automatically on `http://localhost:5173`.
-
+![Zepnest Dashboard](/dashboard.png)
 ---
 
 ## 4. Interactive Sandbox Documentation (Swagger UI)

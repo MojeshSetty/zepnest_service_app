@@ -1,15 +1,12 @@
 
 
----
 
 ```markdown
 # Zepnest Service Request Application
 
 ### Developer Submission Details
 - **Student/Intern Name:** Setty Mojesh
-- 
-
----
+```
 
 ## 1. Project Architecture Overview
 Zepnest is a secure, single-page full-stack service request tracking platform tailored for seamless asynchronous communications. 
@@ -20,8 +17,10 @@ Zepnest is a secure, single-page full-stack service request tracking platform ta
 - **Authentication Engine:** Stateless JSON Web Tokens (JWT) using `python-jose` and protected cryptographic hashing wrappers.
 
 ---
+```
+---
 
-## 2. Directory Layout Architecture
+##  2. Directory Layout Architecture
 Ensure your local project directory structure conforms to the tracking format below before attempting execution or zipping the package:
 
 ```text
@@ -43,9 +42,9 @@ zepnest_project/
 ├── schema.sql                # Declarative database entry script
 └── README.md                 # Complete system documentation
 
+---
 ```
 
----
 
 ## 3. Step-by-Step System Execution
 

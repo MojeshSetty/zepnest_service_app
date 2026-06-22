@@ -1,12 +1,10 @@
 
 
-
-```markdown
 # Zepnest Service Request Application
 
 ### Developer Submission Details
 - **Student/Intern Name:** Setty Mojesh
-```
+
 
 ## 1. Project Architecture Overview
 Zepnest is a secure, single-page full-stack service request tracking platform tailored for seamless asynchronous communications. 
@@ -16,8 +14,6 @@ Zepnest is a secure, single-page full-stack service request tracking platform ta
 - **Data Persistence ORM:** MySQL relational storage layer mapped gracefully via SQLAlchemy Object Relational Mapping.
 - **Authentication Engine:** Stateless JSON Web Tokens (JWT) using `python-jose` and protected cryptographic hashing wrappers.
 
----
-```
 ---
 
 ##  2. Directory Layout Architecture
@@ -88,6 +84,16 @@ source venv/bin/activate
 # 4. Initialize the asynchronous server instance with automatic hot-reloading active
 uvicorn main:app --reload
 
+#if doesn't work , then rebuild the Fresh environment by these commands
+cd backend
+
+python -m venv venv
+
+.\venv\Scripts\activate
+
+pip install fastapi uvicorn sqlalchemy pymysql passlib python-jose python-multipart pydantic email-validator bcrypt==4.0.1
+
+#Once that finishes, run uvicorn main:app --reload again. It will spin up perfectly this time!
 ```
 
 The engine will start up successfully on `http://127.0.0.1:8000`.
